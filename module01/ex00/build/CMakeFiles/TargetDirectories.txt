@@ -1,0 +1,3 @@
+/Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build/CMakeFiles/totp.dir
+/Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build/CMakeFiles/edit_cache.dir
+/Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build/CMakeFiles/rebuild_cache.dir

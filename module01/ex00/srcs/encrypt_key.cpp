@@ -6,7 +6,7 @@
 /*   By: nghaddar <nghaddar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:21:20 by nghaddar          #+#    #+#             */
-/*   Updated: 2025/06/03 12:23:20 by nghaddar         ###   ########.fr       */
+/*   Updated: 2025/06/04 15:25:35 by nghaddar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void	encrypt_key(std::string filename)
 	verif_key(buffer);
 	bytes_buffer = prepare_key(buffer);
 
-	outfile.open("ft_otp.key", std::ios::binary);
+	outfile.open("../keys/ft_otp.key", std::ios::binary);
 	outfile.write(reinterpret_cast<char *>(bytes_buffer.data()), bytes_buffer.size());
-	std::cout << "Key has been successfully saved to ft_otp.key\n";
+	std::cout << "Key has been successfully saved to keys/ft_otp.key\n";
 }

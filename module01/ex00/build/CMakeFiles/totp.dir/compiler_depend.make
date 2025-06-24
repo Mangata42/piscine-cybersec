@@ -754,12 +754,34 @@ CMakeFiles/totp.dir/srcs/encrypt_key.cpp.o: /Users/mangata/Workstation/42/piscin
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/includes/ft_otp.h \
+  /opt/homebrew/include/openssl/asn1.h \
+  /opt/homebrew/include/openssl/asn1err.h \
+  /opt/homebrew/include/openssl/bio.h \
+  /opt/homebrew/include/openssl/bioerr.h \
+  /opt/homebrew/include/openssl/bn.h \
+  /opt/homebrew/include/openssl/bnerr.h \
   /opt/homebrew/include/openssl/configuration.h \
+  /opt/homebrew/include/openssl/core.h \
+  /opt/homebrew/include/openssl/core_dispatch.h \
+  /opt/homebrew/include/openssl/crypto.h \
+  /opt/homebrew/include/openssl/cryptoerr.h \
+  /opt/homebrew/include/openssl/cryptoerr_legacy.h \
   /opt/homebrew/include/openssl/e_os2.h \
+  /opt/homebrew/include/openssl/evp.h \
+  /opt/homebrew/include/openssl/evperr.h \
+  /opt/homebrew/include/openssl/indicator.h \
   /opt/homebrew/include/openssl/macros.h \
+  /opt/homebrew/include/openssl/obj_mac.h \
+  /opt/homebrew/include/openssl/objects.h \
+  /opt/homebrew/include/openssl/objectserr.h \
   /opt/homebrew/include/openssl/opensslconf.h \
   /opt/homebrew/include/openssl/opensslv.h \
-  /opt/homebrew/include/openssl/sha.h
+  /opt/homebrew/include/openssl/params.h \
+  /opt/homebrew/include/openssl/safestack.h \
+  /opt/homebrew/include/openssl/sha.h \
+  /opt/homebrew/include/openssl/stack.h \
+  /opt/homebrew/include/openssl/symhacks.h \
+  /opt/homebrew/include/openssl/types.h
 
 CMakeFiles/totp.dir/srcs/main.cpp.o: /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/srcs/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1514,12 +1536,34 @@ CMakeFiles/totp.dir/srcs/main.cpp.o: /Users/mangata/Workstation/42/piscine-cyber
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/includes/ft_otp.h \
+  /opt/homebrew/include/openssl/asn1.h \
+  /opt/homebrew/include/openssl/asn1err.h \
+  /opt/homebrew/include/openssl/bio.h \
+  /opt/homebrew/include/openssl/bioerr.h \
+  /opt/homebrew/include/openssl/bn.h \
+  /opt/homebrew/include/openssl/bnerr.h \
   /opt/homebrew/include/openssl/configuration.h \
+  /opt/homebrew/include/openssl/core.h \
+  /opt/homebrew/include/openssl/core_dispatch.h \
+  /opt/homebrew/include/openssl/crypto.h \
+  /opt/homebrew/include/openssl/cryptoerr.h \
+  /opt/homebrew/include/openssl/cryptoerr_legacy.h \
   /opt/homebrew/include/openssl/e_os2.h \
+  /opt/homebrew/include/openssl/evp.h \
+  /opt/homebrew/include/openssl/evperr.h \
+  /opt/homebrew/include/openssl/indicator.h \
   /opt/homebrew/include/openssl/macros.h \
+  /opt/homebrew/include/openssl/obj_mac.h \
+  /opt/homebrew/include/openssl/objects.h \
+  /opt/homebrew/include/openssl/objectserr.h \
   /opt/homebrew/include/openssl/opensslconf.h \
   /opt/homebrew/include/openssl/opensslv.h \
-  /opt/homebrew/include/openssl/sha.h
+  /opt/homebrew/include/openssl/params.h \
+  /opt/homebrew/include/openssl/safestack.h \
+  /opt/homebrew/include/openssl/sha.h \
+  /opt/homebrew/include/openssl/stack.h \
+  /opt/homebrew/include/openssl/symhacks.h \
+  /opt/homebrew/include/openssl/types.h
 
 CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/srcs/options.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2274,21 +2318,59 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/includes/ft_otp.h \
+  /opt/homebrew/include/openssl/asn1.h \
+  /opt/homebrew/include/openssl/asn1err.h \
+  /opt/homebrew/include/openssl/bio.h \
+  /opt/homebrew/include/openssl/bioerr.h \
+  /opt/homebrew/include/openssl/bn.h \
+  /opt/homebrew/include/openssl/bnerr.h \
   /opt/homebrew/include/openssl/configuration.h \
+  /opt/homebrew/include/openssl/core.h \
+  /opt/homebrew/include/openssl/core_dispatch.h \
+  /opt/homebrew/include/openssl/crypto.h \
+  /opt/homebrew/include/openssl/cryptoerr.h \
+  /opt/homebrew/include/openssl/cryptoerr_legacy.h \
   /opt/homebrew/include/openssl/e_os2.h \
+  /opt/homebrew/include/openssl/evp.h \
+  /opt/homebrew/include/openssl/evperr.h \
+  /opt/homebrew/include/openssl/indicator.h \
   /opt/homebrew/include/openssl/macros.h \
+  /opt/homebrew/include/openssl/obj_mac.h \
+  /opt/homebrew/include/openssl/objects.h \
+  /opt/homebrew/include/openssl/objectserr.h \
   /opt/homebrew/include/openssl/opensslconf.h \
   /opt/homebrew/include/openssl/opensslv.h \
-  /opt/homebrew/include/openssl/sha.h
+  /opt/homebrew/include/openssl/params.h \
+  /opt/homebrew/include/openssl/safestack.h \
+  /opt/homebrew/include/openssl/sha.h \
+  /opt/homebrew/include/openssl/stack.h \
+  /opt/homebrew/include/openssl/symhacks.h \
+  /opt/homebrew/include/openssl/types.h
 
 
 /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/srcs/options.cpp:
+
+/opt/homebrew/include/openssl/types.h:
+
+/opt/homebrew/include/openssl/symhacks.h:
 
 /opt/homebrew/include/openssl/opensslv.h:
 
 /opt/homebrew/include/openssl/opensslconf.h:
 
+/opt/homebrew/include/openssl/obj_mac.h:
+
+/opt/homebrew/include/openssl/objectserr.h:
+
+/opt/homebrew/include/openssl/evperr.h:
+
 /opt/homebrew/include/openssl/e_os2.h:
+
+/opt/homebrew/include/openssl/core_dispatch.h:
+
+/opt/homebrew/include/openssl/core.h:
+
+/opt/homebrew/include/openssl/asn1.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h:
 
@@ -2327,6 +2409,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
+
+/opt/homebrew/include/openssl/objects.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h:
 
@@ -2407,6 +2491,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo:
+
+/opt/homebrew/include/openssl/bn.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
 
@@ -2493,6 +2579,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/declval.h:
+
+/opt/homebrew/include/openssl/stack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/cmp.h:
 
@@ -2622,6 +2710,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
+/opt/homebrew/include/openssl/crypto.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
@@ -2631,6 +2721,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h:
+
+/opt/homebrew/include/openssl/safestack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
@@ -2714,6 +2806,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
+/opt/homebrew/include/openssl/evp.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
@@ -2765,6 +2859,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
+
+/opt/homebrew/include/openssl/cryptoerr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
@@ -2978,6 +3074,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
+/opt/homebrew/include/openssl/asn1err.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
@@ -3014,6 +3112,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/weekday.h:
 
+/opt/homebrew/include/openssl/params.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h:
@@ -3031,6 +3131,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/day.h:
+
+/opt/homebrew/include/openssl/indicator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem:
 
@@ -3488,6 +3590,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
+/opt/homebrew/include/openssl/bnerr.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
@@ -3565,6 +3669,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
+
+/opt/homebrew/include/openssl/bio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
@@ -3684,6 +3790,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
+/opt/homebrew/include/openssl/cryptoerr_legacy.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h:
@@ -3745,6 +3853,8 @@ CMakeFiles/totp.dir/srcs/options.cpp.o: /Users/mangata/Workstation/42/piscine-cy
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h:
+
+/opt/homebrew/include/openssl/bioerr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
 

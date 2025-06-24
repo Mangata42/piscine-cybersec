@@ -6,7 +6,7 @@
 /*   By: nghaddar <nghaddar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:14:20 by nghaddar          #+#    #+#             */
-/*   Updated: 2025/05/29 19:00:44 by nghaddar         ###   ########.fr       */
+/*   Updated: 2025/06/04 15:26:47 by nghaddar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 #include <map>
 #include <algorithm>
 #include <openssl/sha.h>
+#include <cstdlib>
 #include <exception>
 #include <time.h>
 

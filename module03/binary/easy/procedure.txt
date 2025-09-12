@@ -1,0 +1,16 @@
+J'ai d'abord commencé par désassembler le code avec objdump 
+`objdump -d -M intel`, -d pour avoir les sections intéressantes et -M pour préciser que je veux du NASM
+j'ai analysé ensuite le code avec GDB ligne par ligne pour identifier ce qu'il se passe
+J'ai remarqué 3 appels de fonctions, printf, scanf, et strcmp
+Ligne par ligne dans GDB, je regardais ce qu'il se passait au niveau de la stack
+J'ai remarqué qu'avant le strcmp, au niveau de la stack, se reconstruisait byte par byte le mot de passe
+juste avant l'appel à strcmp. 
+J'ai ainsi trouvé le mot de passe comme ça. 
+Pour patcher le binaire, j'ai identifier un embranchement juste après le strcmp. 
+`JNE = jump not equal` qui comparait le registre eax à 0 (eax registre valeur de retour de strcmp)
+donc si eax n'est pas = 0, le mot de passe n'a pas été entré correctement. 
+J'ai identifié l'adresse de l'instruction dans le binaire, 0x1244, j'ai ouvert avec hexedit le binaire pour modifier 
+l'opcode de JNE (0x0f 0x85) en NOP (no operation) (0x90) pour que maintenant le programme accepte n'importe quel mot de passe
+sauf le bon 
+JNE est une instruction 6 bytes mais NOP 1 byte, donc j'ai comblé les 5 bytes restants en NOP pour ne pas 
+que le processeur execute des instructions vides et segfault

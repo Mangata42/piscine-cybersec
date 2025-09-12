@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00
+CMAKE_SOURCE_DIR = /Users/mangata/Workstation/42/piscine-cybersec/module04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build
+CMAKE_BINARY_DIR = /Users/mangata/Workstation/42/piscine-cybersec/module04/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build/CMakeFiles /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mangata/Workstation/42/piscine-cybersec/module04/build/CMakeFiles /Users/mangata/Workstation/42/piscine-cybersec/module04/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mangata/Workstation/42/piscine-cybersec/module01/ex00/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mangata/Workstation/42/piscine-cybersec/module04/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,89 +117,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named totp
+# Target rules for targets named stockholm
 
 # Build rule for target.
-totp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 totp
-.PHONY : totp
+stockholm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stockholm
+.PHONY : stockholm
 
 # fast build rule for target.
-totp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/build
-.PHONY : totp/fast
+stockholm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/build
+.PHONY : stockholm/fast
 
-srcs/encrypt_key.o: srcs/encrypt_key.cpp.o
-.PHONY : srcs/encrypt_key.o
-
-# target to build an object file
-srcs/encrypt_key.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/encrypt_key.cpp.o
-.PHONY : srcs/encrypt_key.cpp.o
-
-srcs/encrypt_key.i: srcs/encrypt_key.cpp.i
-.PHONY : srcs/encrypt_key.i
-
-# target to preprocess a source file
-srcs/encrypt_key.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/encrypt_key.cpp.i
-.PHONY : srcs/encrypt_key.cpp.i
-
-srcs/encrypt_key.s: srcs/encrypt_key.cpp.s
-.PHONY : srcs/encrypt_key.s
-
-# target to generate assembly for a file
-srcs/encrypt_key.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/encrypt_key.cpp.s
-.PHONY : srcs/encrypt_key.cpp.s
-
-srcs/main.o: srcs/main.cpp.o
-.PHONY : srcs/main.o
+src/decrypt.o: src/decrypt.c.o
+.PHONY : src/decrypt.o
 
 # target to build an object file
-srcs/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/main.cpp.o
-.PHONY : srcs/main.cpp.o
+src/decrypt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/decrypt.c.o
+.PHONY : src/decrypt.c.o
 
-srcs/main.i: srcs/main.cpp.i
-.PHONY : srcs/main.i
+src/decrypt.i: src/decrypt.c.i
+.PHONY : src/decrypt.i
 
 # target to preprocess a source file
-srcs/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/main.cpp.i
-.PHONY : srcs/main.cpp.i
+src/decrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/decrypt.c.i
+.PHONY : src/decrypt.c.i
 
-srcs/main.s: srcs/main.cpp.s
-.PHONY : srcs/main.s
+src/decrypt.s: src/decrypt.c.s
+.PHONY : src/decrypt.s
 
 # target to generate assembly for a file
-srcs/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/main.cpp.s
-.PHONY : srcs/main.cpp.s
+src/decrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/decrypt.c.s
+.PHONY : src/decrypt.c.s
 
-srcs/options.o: srcs/options.cpp.o
-.PHONY : srcs/options.o
+src/encrypt.o: src/encrypt.c.o
+.PHONY : src/encrypt.o
 
 # target to build an object file
-srcs/options.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/options.cpp.o
-.PHONY : srcs/options.cpp.o
+src/encrypt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/encrypt.c.o
+.PHONY : src/encrypt.c.o
 
-srcs/options.i: srcs/options.cpp.i
-.PHONY : srcs/options.i
+src/encrypt.i: src/encrypt.c.i
+.PHONY : src/encrypt.i
 
 # target to preprocess a source file
-srcs/options.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/options.cpp.i
-.PHONY : srcs/options.cpp.i
+src/encrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/encrypt.c.i
+.PHONY : src/encrypt.c.i
 
-srcs/options.s: srcs/options.cpp.s
-.PHONY : srcs/options.s
+src/encrypt.s: src/encrypt.c.s
+.PHONY : src/encrypt.s
 
 # target to generate assembly for a file
-srcs/options.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/totp.dir/build.make CMakeFiles/totp.dir/srcs/options.cpp.s
-.PHONY : srcs/options.cpp.s
+src/encrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/encrypt.c.s
+.PHONY : src/encrypt.c.s
+
+src/stockholm.o: src/stockholm.c.o
+.PHONY : src/stockholm.o
+
+# target to build an object file
+src/stockholm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/stockholm.c.o
+.PHONY : src/stockholm.c.o
+
+src/stockholm.i: src/stockholm.c.i
+.PHONY : src/stockholm.i
+
+# target to preprocess a source file
+src/stockholm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/stockholm.c.i
+.PHONY : src/stockholm.c.i
+
+src/stockholm.s: src/stockholm.c.s
+.PHONY : src/stockholm.s
+
+# target to generate assembly for a file
+src/stockholm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stockholm.dir/build.make CMakeFiles/stockholm.dir/src/stockholm.c.s
+.PHONY : src/stockholm.c.s
 
 # Help Target
 help:
@@ -209,16 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... totp"
-	@echo "... srcs/encrypt_key.o"
-	@echo "... srcs/encrypt_key.i"
-	@echo "... srcs/encrypt_key.s"
-	@echo "... srcs/main.o"
-	@echo "... srcs/main.i"
-	@echo "... srcs/main.s"
-	@echo "... srcs/options.o"
-	@echo "... srcs/options.i"
-	@echo "... srcs/options.s"
+	@echo "... stockholm"
+	@echo "... src/decrypt.o"
+	@echo "... src/decrypt.i"
+	@echo "... src/decrypt.s"
+	@echo "... src/encrypt.o"
+	@echo "... src/encrypt.i"
+	@echo "... src/encrypt.s"
+	@echo "... src/stockholm.o"
+	@echo "... src/stockholm.i"
+	@echo "... src/stockholm.s"
 .PHONY : help
 
 

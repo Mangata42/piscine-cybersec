@@ -6,7 +6,7 @@
 /*   By: nghaddar <nghaddar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/22 11:52:15 by nghaddar          #+#    #+#             */
-/*   Updated: 2025/09/12 14:15:38 by nghaddar         ###   ########.fr       */
+/*   Updated: 2025/09/15 16:34:45 by nghaddar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,11 +41,12 @@ void	launch_attack(char *path)
 	if (!SILENT_FLAG)
 		printf(ANSI_YELLOW "\nEntering directory \"%s\" -->\n" ANSI_RESET, path);
 		
-	dip = readdir(dp);
-	dip = readdir(dp);
-	// these lines skip "." & ".."
 	while ((dip = readdir(dp)) != NULL)
 	{
+		// Skip "." and ".." entries
+		if (strcmp(dip->d_name, ".") == 0 || strcmp(dip->d_name, "..") == 0)
+			continue;
+			
 		if (dip->d_type == DT_DIR)
 		{
 			new_path = malloc(strlen(path) + strlen(dip->d_name) + 2);
@@ -155,7 +156,7 @@ int		main(int argc, char **argv)
 		}
 	}
 
-	homepath = malloc(strlen(getenv("HOME") + strlen("/infection") + 1));
+	homepath = malloc(strlen(getenv("HOME")) + strlen("/infection") + 1);
 	sprintf(homepath, "%s/%s", getenv("HOME"), "infection");
 
 	if (!SILENT_FLAG){	

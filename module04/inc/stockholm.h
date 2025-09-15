@@ -6,7 +6,7 @@
 /*   By: nghaddar <nghaddar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/22 12:17:42 by nghaddar          #+#    #+#             */
-/*   Updated: 2025/09/12 14:15:22 by nghaddar         ###   ########.fr       */
+/*   Updated: 2025/09/15 16:36:41 by nghaddar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 #include <stdlib.h>
 #include <getopt.h>
 #include <dirent.h>
+#include <sys/stat.h>
 #include <sys/errno.h>
 
 #include <openssl/conf.h>

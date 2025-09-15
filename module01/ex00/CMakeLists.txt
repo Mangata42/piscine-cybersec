@@ -7,6 +7,7 @@ set(SRCS 	srcs/main.cpp
 			srcs/options.cpp
 			srcs/encrypt_key.cpp
 )
+add_compile_options(-Wall -Wextra -Werror)
 
 add_executable(totp ${SRCS})
 find_package(OpenSSL REQUIRED)

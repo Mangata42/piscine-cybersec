@@ -6,7 +6,7 @@
 /*   By: nghaddar <nghaddar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:21:20 by nghaddar          #+#    #+#             */
-/*   Updated: 2025/06/04 15:25:35 by nghaddar         ###   ########.fr       */
+/*   Updated: 2025/09/15 15:23:35 by nghaddar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	verif_key(std::string &buffer)
 	if (buffer.size() % 2)
 		throw(std::invalid_argument("Error: invalid hexadecimal key"));
 		
-	for (int i = 0; i < buffer.size(); i++)
+	for (size_t i = 0; i < buffer.size(); i++)
 	{
 
 		if (!((buffer[i] >= '0' && buffer[i] <= '9') || 
@@ -38,7 +38,7 @@ std::vector<unsigned char>	prepare_key(std::string &buffer)
 	for (char &c : buffer)
 		c = std::tolower(c);
 	
-	int i = 0;
+	size_t i = 0;
 	while (i < buffer.size())
 	{
 		byte = 0;

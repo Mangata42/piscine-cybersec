@@ -6,14 +6,17 @@
 /*   By: nghaddar <nghaddar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:14:20 by nghaddar          #+#    #+#             */
-/*   Updated: 2025/06/04 15:26:47 by nghaddar         ###   ########.fr       */
+/*   Updated: 2025/09/15 15:19:11 by nghaddar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
+#include <vector>
 #include <fstream>
+#include <filesystem>
+#include <cmath>
 #include <string>
 #include <map>
 #include <algorithm>
